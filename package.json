@@ -1,5 +1,5 @@
 {
-  "name": "hello-service-react",
+  "name": "hello-application-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +13,9 @@
   },
   "scripts": {
     "start": "set PORT=8080 && react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "set PORT=8080 && react-scripts build",
+    "test": "set PORT=8080 && react-scripts test",
+    "eject": "set PORT=8080 && react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
